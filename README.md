@@ -2,7 +2,7 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Material%20Science%20%26%20Biochem%20%26%20Python&fontSize=32&fontColor=ffffff)
 
-[![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F7B93E&center=true&vCenter=true&width=700&lines=Hi,+people+%F0%9F%91%8B;Coding+account+for+material+science,+biochem+and+python+learners;Feel+free+to+leave+comments+or+review+my+repos!)](https://git.io/typing-svg)
+[![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F7B93E&center=true&vCenter=true&width=700&lines=Hi,+people+%F0%9F%91%8B;Coding+account+for+laboratory+slaves+and+coding+learners;Feel+free+to+leave+comments+or+review+my+repos!)](https://git.io/typing-svg)
 
 </div>
 
