@@ -6,7 +6,7 @@
 
 </div>
 
-> ⚠️ **Caution: Please do not follow me.** This is only my private account.
+> ⚠️ **Caution: I will not upload much repos.** This is only my private account. Sorry but I will not follow back many people.
 > But feel free to leave comments or review my repos!
 
 ---
