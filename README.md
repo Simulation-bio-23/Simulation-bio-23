@@ -17,7 +17,6 @@
 
 - 🔬 Interested in: materials, proteins, and simulations
 - 🐍 Currently learning: Python with Pygame
-- 🎮 Project: [Typing Samurai](https://white-lama.itch.io/samurai-typing)
 
 ### 🛠 Tech
 
