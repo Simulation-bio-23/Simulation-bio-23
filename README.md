@@ -28,11 +28,6 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ### 📊 Stats
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=55&text=GITHUB%20ANALYTICS&fontFamily=Nosifer&fontSize=28&fontColor=63E6FF&animation=fadeIn" width="100%" alt="GitHub Analytics"/>
-
 <a href="https://github.com/Simulation-bio-23">
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=Simulation-bio-23&show_icons=true&theme=tokyonight&hide_border=true&bg_color=030712&title_color=63E6FF&icon_color=7C83FF&text_color=FFFFFF" alt="GitHub statistics"/>
 </a>
