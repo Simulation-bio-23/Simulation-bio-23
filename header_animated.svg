@@ -34,19 +34,31 @@
     <animate attributeName="opacity" values="0.1;0.45;0.1" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite"/>
   </circle>
   
-  <circle cx="197" cy="45" r="12" fill="url(#smokePuff)">
-    <animate attributeName="cy" values="45;8" dur="4s" begin="0s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="12;28" dur="4s" begin="0s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.85;0" keyTimes="0;0.3;1" dur="4s" begin="0s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="197" cy="45" r="12" fill="url(#smokePuff)">
-    <animate attributeName="cy" values="45;8" dur="4s" begin="-1.3s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="12;28" dur="4s" begin="-1.3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.85;0" keyTimes="0;0.3;1" dur="4s" begin="-1.3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="197" cy="45" r="12" fill="url(#smokePuff)">
-    <animate attributeName="cy" values="45;8" dur="4s" begin="-2.6s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="12;28" dur="4s" begin="-2.6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.85;0" keyTimes="0;0.3;1" dur="4s" begin="-2.6s" repeatCount="indefinite"/>
-  </circle>
+    <defs>
+    <filter id="wispBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+  <g filter="url(#wispBlur)" fill="#dfe8ff">
+    <ellipse cx="195" cy="45" rx="3" ry="16" opacity="0">
+      <animateMotion dur="5s" begin="0s" repeatCount="indefinite" path="M0,0 C-10,-25 10,-50 0,-80 S8,-120 -6,-160"/>
+      <animate attributeName="opacity" values="0;0.28;0.2;0" keyTimes="0;0.2;0.6;1" dur="5s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="3;7;10" dur="5s" begin="0s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="199" cy="45" rx="3" ry="18" opacity="0">
+      <animateMotion dur="5s" begin="-1.25s" repeatCount="indefinite" path="M0,0 C10,-25 -10,-50 0,-80 S-8,-120 6,-160"/>
+      <animate attributeName="opacity" values="0;0.28;0.2;0" keyTimes="0;0.2;0.6;1" dur="5s" begin="-1.25s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="3;7;10" dur="5s" begin="-1.25s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="193" cy="45" rx="2.5" ry="14" opacity="0">
+      <animateMotion dur="5s" begin="-2.5s" repeatCount="indefinite" path="M0,0 C-8,-20 8,-45 0,-75 S6,-115 -4,-150"/>
+      <animate attributeName="opacity" values="0;0.25;0.18;0" keyTimes="0;0.2;0.6;1" dur="5s" begin="-2.5s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="2.5;6;9" dur="5s" begin="-2.5s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="197" cy="45" rx="3" ry="15" opacity="0">
+      <animateMotion dur="5s" begin="-3.75s" repeatCount="indefinite" path="M0,0 C8,-22 -8,-48 0,-78 S-6,-118 5,-155"/>
+      <animate attributeName="opacity" values="0;0.25;0.18;0" keyTimes="0;0.2;0.6;1" dur="5s" begin="-3.75s" repeatCount="indefinite"/>
+      <animate attributeName="rx" values="3;7;10" dur="5s" begin="-3.75s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
 </svg>
