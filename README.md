@@ -16,7 +16,7 @@
 ![Profile views](https://komarev.com/ghpvc/?username=Simulation-bio-23&label=Profile+views&color=orange&style=flat-square)
 
 - 🔬 Interested in: materials, proteins, and simulations
-- 🐍 Currently learning: Python with Pygame
+- 🐍 Currently learning: Python with PyTorch
 
 ### 🛠 Tech
 
