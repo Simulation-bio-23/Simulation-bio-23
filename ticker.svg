@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="110" viewBox="0 0 800 110">
+  <defs>
+    <filter id="glow" x="-10%" y="-50%" width="120%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- black band -->
+  <rect width="800" height="110" rx="10" fill="#000000"/>
+  <rect width="800" height="110" rx="10" fill="url(#scan)"/>
+  <rect x="0" y="4" width="800" height="1.5" fill="#FFE600" fill-opacity="0.5"/>
+  <rect x="0" y="104.5" width="800" height="1.5" fill="#FFE600" fill-opacity="0.5"/>
+
+  <!-- scrolling neon text (two copies for a seamless loop) -->
+  <g filter="url(#glow)" font-family="'Courier New', Consolas, monospace" font-size="26" font-weight="bold" fill="#FFE600">
+    <g>
+      <text x="0" y="66" textLength="2200" lengthAdjust="spacingAndGlyphs">Hi, people 😈 /// Coding account for material science, biochem &amp; python learners /// Feel free to leave comments or review my repos! ///</text>
+      <text x="2200" y="66" textLength="2200" lengthAdjust="spacingAndGlyphs">Hi, people 😈 /// Coding account for material science, biochem &amp; python learners /// Feel free to leave comments or review my repos! ///</text>
+      <animateTransform attributeName="transform" type="translate" from="800 0" to="-1400 0" dur="14s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
