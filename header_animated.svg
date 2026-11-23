@@ -19,8 +19,4 @@
     <animate attributeName="fill-opacity" values="0.03;0.20;0.08;0.26;0.05;0.16;0.03" keyTimes="0;0.15;0.3;0.45;0.6;0.8;1" dur="2.6s" begin="-1.7s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- blink: eyelid closes over the eye, then opens -->
-  <ellipse cx="456" cy="215" rx="8" ry="0" fill="#34325a">
-    <animate attributeName="ry" values="0;0;5;0;0" keyTimes="0;0.92;0.95;0.98;1" dur="4s" repeatCount="indefinite"/>
-  </ellipse>
 </svg>
