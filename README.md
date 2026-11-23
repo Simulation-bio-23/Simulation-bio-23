@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Material%20Science%20%26%20Biochem%20%26%20Python&fontSize=32&fontColor=ffffff)
+![header](https://raw.githubusercontent.com/Simulation-bio-23/Simulation-bio-23/main/header.svg)
 
 ![ticker](https://raw.githubusercontent.com/Simulation-bio-23/Simulation-bio-23/main/ticker.svg)
 
