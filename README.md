@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://raw.githubusercontent.com/Simulation-bio-23/Simulation-bio-23/main/header.svg)
+![header](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/header_animated.svg)
 
 ![ticker](https://raw.githubusercontent.com/Simulation-bio-23/Simulation-bio-23/main/ticker.svg)
 
