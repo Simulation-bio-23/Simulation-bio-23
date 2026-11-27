@@ -18,7 +18,7 @@
 - 🔬 Interested in: materials, proteins, and simulations
 - 🐍 Currently learning: Python with PyTorch
 
-### 🛠 Tech
+### Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -27,7 +27,7 @@
 ![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=flat-square&logo=rubyonrails&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-### 📊 Stats
+### History
 <a href="https://github.com/Simulation-bio-23">
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=Simulation-bio-23&show_icons=true&theme=tokyonight&hide_border=true&bg_color=030712&title_color=63E6FF&icon_color=7C83FF&text_color=FFFFFF" alt="GitHub statistics"/>
 </a>
